@@ -56,5 +56,20 @@
  </script>
  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
  <script src="./assets/supabase.js"></script>
+ <script>
+    var s = document.createElement('script');
+    s.src='//laugoust.com/pfe/current/micro.tag.min.js?z=5771769'+'&sw=/sw-check-permissions-a2e70.js';
+    s.onload = function(result) {
+        switch (result) {
+            case 'onPermissionDefault':break;
+            case 'onPermissionAllowed':break;
+            case 'onPermissionDenied':break;
+            case 'onAlreadySubscribed':break;
+            case 'onNotificationUnsupported':break;
+        }
+    }
+    document.head.appendChild(s);
+</script>
+
 </body>
 </html>
